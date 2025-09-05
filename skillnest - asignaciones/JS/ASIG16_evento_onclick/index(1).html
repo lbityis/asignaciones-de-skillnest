@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Autora del documento -->
+    <meta name="author" content="elisasoto@liceovvh.cl">
+    <title>Evento onclick (core)</title>
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- Google Fonts -->
+    <!-- Bootstrap icons -->
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+    <nav>
+        <div class="nav-container">
+            <h1>Social Blog</h1>
+            <input type="text" placeholder="Buscar publicaciones">
+            <button id="sesion" onclick="cerrarSesion()">Iniciar sesion</button>
+        </div>
+    </nav>
+
+    <div class=" container">
+        <div class="row">
+            <!-- Columna 1 -->
+            <div class="column-1">
+                <!-- tarjeta 1 (card) -->
+                <div class="card-main">
+                    <h2>Fundamentos de JavaScript</h2>
+                    <p>
+                        <strong>Publicado por:</strong> Carlos Perez
+                    </p>
+                    <p>
+                        <strong>Fecha: </strong>02/03/2025
+                    </p>
+                    <p class="card-text">
+                        JavaScript en un lenguaje de programacion que se utiliza en el desarrollo web.
+                        Aprende los conceptos basicos para aprender a programar
+                    </p>
+                    <button>
+                        <spam>12</spam> me gusta
+                    </button>
+                </div>
+
+
+                <!-- tarjeta 2 (card) -->
+                <div class="card-main">
+                    <h2>Aprende a diseñar con CSS</h2>
+                    <p>
+                        <strong>Publicado por:</strong> Ana Gomez
+                    </p>
+                    <p>
+                        <strong>Fecha: </strong>01/03/2025
+                    </p>
+                    <p class="card-text">
+                        El diseño de una web es fundamental en el desarrollo0 de aplicaciones web.
+                        Conoce las propirdades de CSS para crear interfaces atractivas.
+                    </p>
+                    <button>
+                        <spam>30</spam> me gusta
+                    </button>
+                </div>
+            </div>
+
+            <!-- columna 2 -->
+            <div class="column-2">
+                <!-- Tarjeta 3 (card) -->
+                <div class="card-second">
+                    <h2>¡Bienvenido!</h2>
+                    <p class="card-text">Explora nuevas publicaciones y conecta con otros usuarios.</p>
+                    <button>Ver perfil</button>
+                </div>
+                <img src="static/images/xielian.jpg" alt="florecita">
+            </div>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>

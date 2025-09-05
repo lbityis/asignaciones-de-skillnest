@@ -1,0 +1,47 @@
+/* Resetear estilos por defecto */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Caveat", cursive;
+    color: #ffff;
+}
+
+header {
+    background-color: #494988;
+    padding: 30px;
+    text-align: center;
+}
+
+.container {
+    background-color: #fdf0e0;
+    display: flex;
+    margin: 80px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.row1 {
+    background-color: #e78325;
+    text-align: center;
+    margin: 10px;
+    height: 100px;
+    align-content: center;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja-secundaria {
+    text-align: center;
+    margin: 10px;
+    background-color: #e78325;
+    height: 120px;
+    align-content: center;
+}

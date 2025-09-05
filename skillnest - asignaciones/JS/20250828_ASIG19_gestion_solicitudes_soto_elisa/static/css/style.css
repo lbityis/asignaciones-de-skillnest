@@ -1,0 +1,195 @@
+/* Resetear los estilos por defecto */
+* {
+    margin: 0;              /* Elimina el margen por defecto de todos los elementos */
+    padding: 0;             /* Elimina el padding por defecto de todos los elementos */
+    box-sizing: border-box; /* Incluye padding y borde dentro del ancho y alto */
+}
+
+/* Estilos del body */
+body {
+    font-family: "Fredoka", sans-serif; /* Tipografía principal de la página */
+    background-color: #edf1f5;          /* Color de fondo del body */
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #2c3e50; /* Fondo azul oscuro */
+    color: #fff;               /* Texto blanco */
+    text-decoration: none;     /* Sin subrayado en enlaces */
+    font-size: 24px;           /* Tamaño de fuente */
+    padding: 25px 150px;       /* Espacio interno: 25px arriba/abajo, 150px izquierda/derecha */
+}
+
+/* Contenedor de la navegación */
+.nav-container {
+    width: 1000px;                    /* Ancho fijo del contenedor */
+    margin: 0 auto;                   /* Centra el contenedor horizontalmente */
+    display: flex;                    /* Activa Flexbox */
+    justify-content: space-between;   /* Separa los elementos al máximo posible */
+    align-items: center;              /* Centra verticalmente los elementos */
+    text-align: center;               /* Centra texto dentro de los elementos */
+}
+
+/* Enlaces de navegación */
+.nav-links {
+    display: flex;   /* Coloca los enlaces en fila */
+    gap: 20px;       /* Espacio entre cada enlace */
+}
+
+.nav-links a {
+    color: #fff;           /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 18px;       /* Tamaño de fuente de los enlaces */
+    padding: 8px 12px;     /* Espacio interno del enlace */
+    border-radius: 5px;    /* Bordes redondeados */
+}
+
+/* Efecto al pasar el mouse sobre los enlaces */
+.nav-links a:hover {
+    background-color: #a3c0db; /* Fondo azul claro */
+    color: #2c3e50;            /* Texto azul oscuro */
+}
+
+/* Botón dentro de nav-links */
+.nav-links button {
+    background-color: #3498db;          /* Fondo azul */
+    color: #fff;                         /* Texto blanco */
+    border: none;                        /* Sin borde */
+    border-radius: 5px;                  /* Bordes redondeados */
+    padding: 5px;                        /* Espacio interno */
+    font-family: "Fredoka", sans-serif;  /* Mantiene la tipografía del sitio */
+}
+
+/* Contenedor principal de la página */
+.container {
+    width: 1000px;       /* Ancho fijo */
+    margin: 0 auto;      /* Centrado horizontal */
+    margin-top: 30px;    /* Separación superior */
+}
+
+/* Fila de columnas */
+.row {
+    display: flex;                   /* Activa Flexbox */
+    justify-content: space-between;  /* Separa columnas al máximo */
+}
+
+/* Columna principal */
+.column-1 {
+    flex: 2;             /* Ocupa el doble de espacio que columnas normales */
+    margin-right: 20px;  /* Separación a la derecha */
+}
+
+/* Barra de color decorativa */
+.coloor {
+    background-color: #3498db;  /* Fondo azul */
+    border-top-left-radius: 5px; /* Esquina superior izquierda redondeada */
+    border-top-right-radius: 5px;/* Esquina superior derecha redondeada */
+    width: 664px;                 /* Ancho fijo */
+    height: 100px;                /* Altura fija */
+}
+
+/* Imagen de perfil parte 1 */
+.perfil-pt1 img {
+    width: 110px;           /* Ancho de la imagen */
+    height: 110px;          /* Alto de la imagen */
+    border-radius: 50%;     /* Imagen circular */
+    margin-top: -70px;      /* Sube la imagen sobre el contenedor */
+    border: 5px solid #fff; /* Borde blanco */
+    background-color: #fff; /* Fondo blanco por si hay transparencia */
+}
+
+/* Contenedor de información de perfil */
+.perfil-pt2 {
+    display: flex;           /* Flexbox */
+    align-items: center;     /* Centrado vertical */
+    flex-direction: column;  /* Elementos en columna */
+    margin: 20px;            /* Espacio alrededor */
+}
+
+.perfil-pt2 h4 {
+    margin: 5px 0px 5px 0px; /* Márgenes arriba y abajo */
+    color: #acb3b9;          /* Texto gris */
+}
+
+.perfil-pt2 a {
+    text-decoration: none;  /* Sin subrayado */
+    color: #3498db;         /* Texto azul */
+    margin-top: 5px;        /* Separación superior */
+}
+
+/* Contenedor principal del perfil */
+.perfil {
+    border-radius: 10px;         /* Bordes redondeados */
+    display: flex;               /* Flexbox */
+    align-items: center;         /* Centrado vertical */
+    flex-direction: column;      /* Elementos en columna */
+    background-color: #fff;      /* Fondo blanco */
+}
+
+/* Tarjetas de contenido */
+.tarjet-1, .tarjet-2 {
+    border-radius: 10px;    /* Bordes redondeados */
+    padding: 20px;          /* Espacio interno */
+    background-color: #fff; /* Fondo blanco */
+}
+
+.tarjet-2 {
+    margin-top: 20px;       /* Separación con tarjet-1 */
+}
+
+/* Secciones flexibles de tarjetas */
+.pt-1, .pt-2, .pt-3, .wiwi {
+    display: flex;                 /* Flexbox */
+    justify-content: space-between;/* Separa elementos */
+    align-items: center;           /* Centrado vertical */
+}
+
+.pt-1 h2 {
+    margin-right: 20px; /* Espacio a la derecha del título */
+}
+
+.pt-1 button {
+    background-color: #fff;       /* Fondo blanco */
+    border: 2px solid #3498db;   /* Borde azul */
+    color: #3498db;              /* Texto azul */
+    border-radius: 5px;          /* Bordes redondeados */
+    padding: 6px;                /* Espacio interno */
+    margin-left: 5px;            /* Separación izquierda */
+}
+
+/* Imágenes pequeñas (avatars) */
+.wiwi img, .up img {
+    width: 50px;        /* Ancho de la imagen */
+    height: 50px;       /* Alto de la imagen */
+    border-radius: 50%; /* Imagen circular */
+}
+
+/* Contenedor de botones de like */
+.botones-like {
+    display: flex;                 /* Flexbox */
+    justify-content: space-between;/* Separación entre botones */
+    align-items: center;           /* Centrado vertical */
+}
+
+.btn-like, .btn-nolike {
+    border-radius: 50%; /* Botones circulares */
+    width: 30px;        /* Ancho del botón */
+    height: 30px;       /* Alto del botón */
+    border: none;       /* Sin borde */
+    color: white;       /* Color del texto o icono */
+}
+
+.btn-like {
+    margin-right: 10px; /* Separación derecha */
+    background-color: green; /* Fondo verde */
+}
+
+.btn-nolike {
+    background-color: red;  /* Fondo rojo */
+}
+
+/* Contenedor con alineación centrada */
+.a {
+    display: flex;          /* Flexbox */
+    align-items: center;    /* Centrado vertical */
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Autora del documento -->
+    <meta name="author" content="elisasoto@liceovvh.cl">
+    <!-- Titulo -->
+    <title>Tiempo Local</title>
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra de Navegacion -->
+    <nav>
+        <!-- Nav Container -->
+        <div class="navbar">
+            <h1>El tiempo</h1>
+            <!-- Links barra -->
+            <div class="links">
+                <a href="#">Arica</a>
+                <a href="#">Valparaíso</a>
+                <a href="#">Valdivia</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container -->
+    <div class="container">
+        <div class="temperatura">
+            <h2>Santiago</h2>
+            <form action="">
+                <label for="">ver temperatura en</label>
+                <select name="" id="">
+                    <option value="">°C</option>
+                    <option value="">°F</option>
+                    <option value="">K</option>
+                </select>
+            </form>
+        </div>
+
+        <!-- Fila uno -->
+        <div class="fila1">
+            <div class="dias">
+                <!-- Tarjeta 1 -->
+                <div class="tarjeta">
+
+                    <h2>Hoy</h2>
+                    <img src="static/images/lluvia.png" alt="lluvia">
+                    <p>lluvia</p>
+                    <div class="grados">
+                        <span class="min-temp">18°</span>
+                        <span class="max-temp">24°</span>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="tarjeta">
+
+                    <h2>Mañana</h2>
+                    <img src="static/images/soleado.png" alt="soleado">
+                    <p>soleado</p>
+                    <div class="grados">
+                        <span class="min-temp">19°</span>
+                        <span class="max-temp">27°</span>
+                    </div>
+
+
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="tarjeta">
+
+                    <h2>Jueves</h2>
+                    <img src="static/images/nublado.png" alt="nublado">
+                    <p>nublado</p>
+                    <div class="grados">
+                        <span class="min-temp">16°</span>
+                        <span class="max-temp">21°</span>
+                    </div>
+
+                </div>
+
+                <!-- Tarjeta 4 -->
+                <div class="tarjeta">
+
+                    <h2>Viernes</h2>
+                    <img src="static/images/soleado.png" alt="soleado">
+                    <p>soleado</p>
+                    <div class="grados">
+                        <span class="min-temp">21°</span>
+                        <span class="max-temp">26°</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fila 2 -->
+            <div id="cookies" class="fila2">
+                <img src="static/images/cookie.png" alt="">
+                <div class="fila2-contenido">
+                    <h3>Política de cookies</h3>
+                    <p>Nuestro sitio web utiliza cookies para garantizar la mejor experiencia en nuestro sitio web. <a
+                            href="#">Leer más...</a></p>
+                </div>
+                <button onclick="aceptar()">Aceptar</button>
+            </div>
+
+            <script src="static/js/script.js"></script>
+</body>
+
+</html>

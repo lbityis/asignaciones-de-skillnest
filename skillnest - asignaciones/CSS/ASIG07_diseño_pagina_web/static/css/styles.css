@@ -1,0 +1,84 @@
+/* Resert estilos CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1e3a5f;
+    text-align: center;
+    height: 100px;
+}
+
+header h1,
+header p {
+    color: #ffff;
+    padding: 10px;
+}
+
+nav {
+    padding: 15px;
+    background-color: #2c5181;
+    text-align: center;
+}
+
+nav a {
+    color: #ffff;
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.rectangulo-dos {
+    margin: 50px 0px;
+    background-color: #2c5181;
+    text-align: center;
+    height: 100px;
+    width: 900px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+h2 {
+    padding: 5px;
+}
+
+.container {
+    color: #ffff;
+    margin: 50px 200px;
+    box-shadow: 3px 3px #d8d1d1;
+    background-color: #f1f0f0;
+    width: 1000px;
+    padding: 10px 50px;
+}
+
+.cajas {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.caja-uno {
+    background-color: #35c5df;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.caja-dos {
+    background-color: #35c5df;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+}
+
+.caja-tres {
+    background-color: #35c5df;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+}

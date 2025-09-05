@@ -1,0 +1,44 @@
+/* resetear estilos */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    height: 0 auto;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+/* Estilos generales */
+body {
+    background-color: #fffccc;
+}
+
+/* Contenedor de filas */
+.row {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Estilos generales para columnas */
+.col {
+    background-color: #fdb5e5;
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Ajuste de tamaños específicos */
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}

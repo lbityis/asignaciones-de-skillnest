@@ -1,0 +1,181 @@
+<!-- que version de html se esta usando -->
+<!DOCTYPE html>
+<!-- lenguaje del codigo -->
+<html lang="es">
+
+<!-- encabezado de la pagina -->
+
+<head>
+    <!-- codificacion de caracteres  -->
+    <meta charset="UTF-8">
+    <!-- hace el sitio responsivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo -->
+    <title>Gestion de solicitudes</title>
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- Autora del documento -->
+    <meta name="author" content="elisasoto@liceovvh.cl">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<!-- cuerpo de la pagina/ contenido -->
+
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="nav">
+        <div class="nav-container">
+            <!-- Posicion inicio -->
+            <h1>Perfil</h1>
+
+            <!-- Posicion final / div que agrupa links-->
+            <div class="nav-links">
+                <!-- links -->
+                <a href="#">Inicio</a>
+                <a href="#">Mi perfil</a>
+                <a href="#">Conecciones</a>
+                <!-- boton -->
+                <button>Cerrar sesion</button>
+                <!-- final de nav-links -->
+            </div>
+            <!-- final de nav-container -->
+        </div>
+        <!-- final de barra de navegacion -->
+    </nav>
+    <!-- container / contenido importante -->
+    <div class="container">
+        <!-- Fila para mantener ordenado -->
+        <div class="row">
+            <!-- agrupa elementos de la primera columna -->
+            <div class="column-1">
+                <!-- primera tarjeta = perfil -->
+                <div class="perfil">
+                    <!-- para añadir una linea con color -->
+                    <div class="coloor"></div>
+                    <!-- imagen de perfil -->
+                    <div class="perfil-pt1">
+                        <img src="static/images/Instagram_user_profile_pic-removebg-preview.png" alt="imagen de perfil">
+                    </div>
+                    <!-- texto de la tarjeta -->
+                    <div class="perfil-pt2">
+                        <!-- nombre -->
+                        <h1><strong>Jane Doe</strong></h1>
+                        <!-- informacion principal -->
+                        <h4>Bergen, Noruega</h4>
+                        <p>Desarrolladora Frontend</p>
+                        <p>Conocimientos en HTML, CSS, JavaScript</p>
+                        <!-- link con icono -->
+                        <a href="#"><i class="bi bi-gear"></i> Editar perfil</a>
+                        <!-- fin de perfil-pt2 -->
+                    </div>
+                    <!-- fin de perfil -->
+                </div>
+                <!-- fin de column-1 -->
+            </div>
+
+            <!-- columna 2 - agrupa 2 tarjetas -->
+            <div class="column-2">
+                <!-- tarjeta 2/ al lado de perfil -->
+                <div class="tarjet-1">
+                    <!-- agrupa titulo de tarjeta -->
+                    <div class="pt-1">
+                        <h3><strong>Solicitudes de conexion</strong></h3>
+                        <button>Ver todas</button>
+                        <!-- fin de pt-1 -->
+                    </div>
+
+                    <!-- agrupa info de la tarjeta -->
+                    <div class="pt-2">
+                        <!-- agrupa imagen y nombre -->
+                        <div class="wiwi">
+                            <img src="static/images/Instagram_user_profile_pic-removebg-preview.png"
+                                alt="imagen de perfil">
+                            <p>Steve Jobs</p>
+                        </div>
+                        <!-- agrupa botones -->
+                        <div class="botones-like">
+                            <!-- boton interactivo -->
+                            <button class="btn-like" onclick="laik()"><i class="bi bi-check-lg"></i></button>
+                            <!-- boton interactivo -->
+                            <button class="btn-nolike" onclick="eki()"><i class="bi bi-x-lg"></i></i></button>
+                        </div>
+                    </div>
+
+                    <!-- agrupa info de la tarjeta -->
+                    <div class="pt-3">
+                        <!-- agrupa imagen y nombre -->
+                        <div class="wiwi">
+                            <img src="static/images/Instagram_user_profile_pic-removebg-preview.png"
+                                alt="imagen de perfil">
+                            <p>Bill Gates</p>
+                        </div>
+                        <!-- agrupa botones -->
+                        <div class="botones-like">
+                            <!-- boton interactivo -->
+                            <button class="btn-like" onclick="laik2()"><i class="bi bi-check-lg"></i></button>
+                            <!-- boton interactivo -->
+                            <button class="btn-nolike" onclick="eki2()"><i class="bi bi-x-lg"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- tercera tarjeta -->
+                <div class="tarjet-2">
+                    <!-- agrupa titulo de tarjeta y boton -->
+                    <div class="pt-1">
+                        <h3><strong>Tus Conecciones</strong></h3>
+                        <button>Ver todas</button>
+                    </div>
+
+                    <!--agrupa toda la info de la tarjeta-->
+                    <div class="up">
+                        <!-- agrupa imagen y nombre -->
+                        <div class="a">
+                            <img src="static/images/Instagram_user_profile_pic-removebg-preview.png"
+                                alt="imagen de perfil">
+                            <p>Richard Stallman</p>
+                        </div>
+                        <!-- agrupa imagen y nombre -->
+                        <div class="a">
+                            <img src="static/images/Instagram_user_profile_pic-removebg-preview.png"
+                                alt="imagen de perfil">
+                            <p>Linus Tovalds</p>
+                        </div>
+                        <!-- agrupa imagen y nombre -->
+                        <div class="a">
+                            <img src="static/images/Instagram_user_profile_pic-removebg-preview.png"
+                                alt="imagen de perfil">
+                            <p>Ada Lovelace</p>
+                        </div>
+                        <!-- agrupa imagen y nombre -->
+                        <div class="a">
+                            <img src="static/images/Instagram_user_profile_pic-removebg-preview.png"
+                                alt="imagen de perfil">
+                            <p>Grace Hopper</p>
+                        </div>
+
+                        <!-- final de up -->
+                    </div>
+                    <!-- final de tarjet-2 -->
+                </div>
+                <!-- final de column-2 -->
+            </div>
+            <!-- final de row -->
+        </div>
+        <!-- cierra container -->
+    </div>
+
+    <!-- conecta con Script JS -->
+    <script src="static/js/script.js"></script>
+
+    <!-- fin del cuerpo de la pagina -->
+</body>
+
+<!-- fin del codigo -->
+
+</html>

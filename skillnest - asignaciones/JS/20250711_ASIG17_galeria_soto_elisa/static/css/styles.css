@@ -1,0 +1,62 @@
+/* Resetear los estilos CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(250, 247, 244);
+    font-family: "Indie Flower", cursive;
+}
+
+nav {
+    background-color: #a0858f;
+    padding: 10px;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-container h1 {
+    color: #ffff;
+    font-size: 30px;
+}
+
+.nav-container input {
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    width: 500px;
+}
+
+.nav-container button {
+    background-color: #dbd5d7;
+    border: none;
+    border-radius: 30px;
+    color: #ffff;
+    padding: 8px 14px;
+}
+
+.row {
+    /*flexbox*/
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #ffff;
+    padding: 20px;
+    box-shadow: 0px 3px 3px #aaa5a7;
+    margin: 30px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
